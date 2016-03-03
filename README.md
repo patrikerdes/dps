@@ -7,6 +7,7 @@ mpd2dps converts millions of documents per day (mpd) to documents per second (dp
 dps2mpd converts documents per second (dps) to millions of documents per day (mpd)
 
 mpd = dps / 1000000 * (24 * 60 * 60)
+
 dps = mpd * 1000000 / (24 * 60 * 60)
 
 ### How to install
