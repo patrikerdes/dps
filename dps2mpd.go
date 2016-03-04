@@ -16,7 +16,7 @@ func main() {
 	}
 
 	mpd := dps / 1000000 * (24 * 60 * 60)
-	fmt.Printf("%.f", mpd)
+	fmt.Printf("%.f\n", mpd)
 }
 
 func help() {
